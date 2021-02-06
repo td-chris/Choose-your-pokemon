@@ -1,0 +1,93 @@
+body{
+    background-image: linear-gradient(60deg, #9999ff, #ccccff )
+}
+
+.text-container{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 60px;
+    background-color: #ffffff;
+    width: 98%;
+    height: 100px;
+
+    border: 5px double #000000;
+    border-radius: 30px;
+
+}
+
+.text{
+    position: relative;
+    padding-top: 15px;
+    margin-left: 30px;
+
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 120px;
+
+    background: none;
+}
+
+.btn{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 100px;
+
+    opacity: 0.7;
+    background-image: linear-gradient(#f2f2f2, #d9d9d9);
+    box-shadow: 5px 10px 10px black;
+
+    font-family: 'Sriracha', cursive;
+    font-size: 25px;
+
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+img{
+    position: relative;
+    top: 60px;
+    left: 5px;
+    margin-bottom: 60px;
+}
+
+.btn:hover{
+    background-color: #ffff99;
+}
+
+.btn:focus{
+    background-color: #ffff99;
+    opacity: 1;
+}
+
+.bulbasaur{
+    border: 1px #009933 solid;
+}
+
+.charmander{
+    border: 1px #ff6600 solid;
+}
+
+.squirtle{
+    border: 1px #3333ff solid;
+}
+
+.bulbasaur:hover{
+    opacity: 1;
+    color: #009933;
+}
+
+.charmander:hover{
+    opacity: 1;
+    color: #ff6600;
+}
+
+.squirtle:hover{
+    opacity: 1;
+    color: #3333ff;
+}
+
